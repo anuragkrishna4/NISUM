@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Image Gallery</title>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      max-width: 900px;
+      margin: 20px auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+
+    /* Responsive for smaller screens */
+    @media (max-width: 600px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="gallery">
+    <img src="https://media.istockphoto.com/id/485371557/photo/twilight-at-spirit-island.jpg?s=612x612&w=0&k=20&c=FSGliJ4EKFP70Yjpzso0HfRR4WwflC6GKfl4F3Hj7fk=" alt="Image 1" />
+    <img src="https://hips.hearstapps.com/hmg-prod/images/screen-shot-2018-07-11-at-5-06-55-pm-1531343396.png?crop=1xw:1xh;center,top&resize=980:*" alt="Image 2" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwD1MAYHQXMqDwlo-JbU_zC3aEsXjs7mV98ahcqLZiBudqDFzZgP0-v0x7dNf2cNgjrvs&usqp=CAU" alt="Image 3" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2NR22ngB2Ekups2s2nIcyW8qf-E3oLIhmv--m1pfMSvR2EoR9f8xLaM30w_CLGkuPrFA&usqp=CAU" alt="Image 4" />
+    <img src="https://thumbs.dreamstime.com/b/spring-summer-landscape-blue-sky-clouds-river-boat-green-trees-narew-countryside-grass-poland-water-leaves-58070004.jpg" alt="Image 5" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-L0hbkgz7vpOlqg_Y7_VdAn7YucjnLpm-cQIJH3zXVARB9PyQA0ToXMayiZreK5MoYo&usqp=CAU" alt="Image 6" />
+  </div>
+
+</body>
+</html>

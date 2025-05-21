@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Button Styles Challenge</title>
+  <style>
+    .styled-button {
+      padding: 12px 30px;
+      font-size: 18px;
+      color: white;
+      border: none;
+      border-radius: 25px; /* Rounded corners */
+      background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient background */
+      cursor: pointer;
+      transition: transform 0.3s ease, background 0.3s ease; /* Smooth animation */
+      outline: none;
+    }
+
+    .styled-button:hover {
+      transform: scale(1.1); /* Scale up */
+      background: linear-gradient(45deg, #2575fc, #6a11cb); /* Color change on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <button class="styled-button">Click Me</button>
+
+</body>
+</html>

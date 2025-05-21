@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Semantic SPA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header, nav, main, footer {
+      padding: 1em;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+    }
+    nav {
+      background-color: #f4f4f4;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      padding: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+    main {
+      min-height: 300px;
+      padding: 2em;
+      background: #fafafa;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Semantic Single Page Application</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="content">
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to our homepage!</p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>We are a company that values semantic HTML and accessibility.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <p>We offer web development and design services.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email us at contact@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
