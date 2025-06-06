@@ -1,0 +1,10 @@
+body {
+  font-family: Arial;
+}
+.container {
+  width: 300px;
+  margin: auto;
+}
+li {
+  margin: 5px 0;
+}
