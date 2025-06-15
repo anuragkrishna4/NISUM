@@ -1,4 +1,4 @@
-public class Q11 {
+public class Q21 {
 
     static class EvenThread extends Thread {
         public void run() {
